@@ -1,0 +1,51 @@
+@import "vars"
+
+@media only screen and (max-width : 1200px)
+	/**/
+
+@media only screen and (max-width : 992px)
+	header
+		.welcome
+			.h1
+				font-size: 50px
+
+	.call
+		&::before
+			width: 100%
+		.callback
+			padding: 12% 0
+
+@media only screen and (max-width : 768px)
+	header
+		.phone
+			display: none
+
+	.quotes
+		display: none
+
+	.logo-footer, .footer-menu, .footer-addr
+		text-align: center
+
+	.logo-footer
+		+ p
+			text-align: center
+
+	.footer-addr
+		.fa
+			position: relative
+
+
+@media only screen and (max-width : 480px)
+	header
+		.welcome
+			.h1
+				font-size: 40px
+	.carousel-services-content
+		p
+			font-size: 20px
+			letter-spacing: 0.1em
+			margin-top: -17px
+
+@media only screen and (max-width : 320px)
+	/**/
+
